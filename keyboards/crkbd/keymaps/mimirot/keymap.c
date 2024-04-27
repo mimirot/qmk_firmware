@@ -60,7 +60,7 @@ enum combos{
     IA_F8,
     XC_F9,
     QL_F10,
-    EI_F11,
+//    EI_F11,
     ZX_F12
 };
 
@@ -86,7 +86,7 @@ const uint16_t PROGMEM lu_combo[] = {KC_L, KC_U, COMBO_END};
 const uint16_t PROGMEM ia_combo[] = {KC_I, KC_A, COMBO_END};
 const uint16_t PROGMEM xc_combo[] = {KC_X, KC_C, COMBO_END};
 const uint16_t PROGMEM ql_combo[] = {KC_Q, KC_L, COMBO_END};
-const uint16_t PROGMEM ei_combo[] = {KC_E, KC_I, COMBO_END};
+//const uint16_t PROGMEM ei_combo[] = {KC_E, KC_I, COMBO_END};
 const uint16_t PROGMEM zx_combo[] = {KC_Z, KC_X, COMBO_END};
 
 combo_t key_combos[] = {
@@ -112,7 +112,7 @@ combo_t key_combos[] = {
     [IA_F8] = COMBO(ia_combo, KC_F8),
     [XC_F9] = COMBO(xc_combo, KC_F9),
     [QL_F10] = COMBO(ql_combo, KC_F10),
-    [EI_F11] = COMBO(ei_combo, KC_F11),
+//    [EI_F11] = COMBO(ei_combo, KC_F11),
     [ZX_F12] = COMBO(zx_combo, KC_F12),
 };
 
