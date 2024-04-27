@@ -57,6 +57,15 @@ static void oled_render_layer_state(void) {
         case 3:
             oled_write_ln_P(PSTR("Adjust"), false);
             break;
+        case 4:
+            oled_write_ln_P(PSTR("QWERTY"), false);
+            break;
+        case 5:
+            oled_write_ln_P(PSTR("TEST"), false);
+            break;
+        case 6:
+            oled_write_ln_P(PSTR("KATANA"), false);
+            break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
             break;
