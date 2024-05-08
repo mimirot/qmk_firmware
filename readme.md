@@ -34,3 +34,11 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+
+## Personal Use
+This fork is used by takuten(takuten-izumi) with Corne Cherry V3 keyboard.
+
+Keymaps --> ./keyboard/crkbd/keymaps/mimirot/
+
+**A lot of appriciate for the great who afforded me these wonderful experience!!**
