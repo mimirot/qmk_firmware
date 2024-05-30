@@ -42,6 +42,6 @@ This fork is used by takuten(takuten-izumi) with Corne Cherry V3 keyboard.
 Keymaps --> [keyboards/crkbd/keymaps/mimirot](/keyboards/crkbd/keymaps/mimirot/)
 
 The keymap is called "大西配列" (Ohnishi hairetsu).<br>
-Refer [here](https://note.com/illlilllililill/n/n3b51f4aaf086)for more detailed information about the keymap.
+Refer [here](https://note.com/illlilllililill/n/n3b51f4aaf086) for more detailed information about the keymap.
 
 **A lot of appriciate for the great who afforded me these wonderful experience!!**
