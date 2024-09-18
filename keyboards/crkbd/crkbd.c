@@ -66,6 +66,9 @@ static void oled_render_layer_state(void) {
         case 6:
             oled_write_ln_P(PSTR("KATANA"), false);
             break;
+        case 7:
+            oled_write_ln_P(PSTR("CADsuper"), false);
+            break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
             break;
