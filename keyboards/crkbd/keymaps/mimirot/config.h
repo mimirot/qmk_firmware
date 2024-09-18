@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
-//#define MASTER_RIGHT
+//#define MASTER_LEFT
+#define MASTER_RIGHT
 //#define EE_HANDS
 
 //#define QUICK_TAP_TERM 0
@@ -64,10 +64,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     #define ENABLE_RGB_MATRIX_ALPHAS_MODS
     //#define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
-    //#define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
+    #define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
     #define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
-    #define ENABLE_RGB_MATRIX_RAINDROPS
-    #define ENABLE_RGB_MATRIX_PIXEL_FLOW
+    //#define ENABLE_RGB_MATRIX_RAINDROPS
+    //#define ENABLE_RGB_MATRIX_PIXEL_FLOW
 
 // enabled only if RGB_MATRIX_FRAMEBUFFER_EFFECTS is defined
     #define ENABLE_RGB_MATRIX_TYPING_HEATMAP
