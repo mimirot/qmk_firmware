@@ -209,11 +209,11 @@ LT(7, RGB_TOG),   KC_Z,    KC_X,    KC_C,    KC_V, KC_COMM,                     
         
     [7] = LAYOUT_split_3x6_3(//CADsuper
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_PGUP, XXXXXXX,    KC_P,  KC_INS, KC_PAUS, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   TO(0),
+      XXXXXXX, S(KC_Q), S(KC_L),  KC_INS, KC_PAUS, S(KC_T),                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   TO(0),
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_PGDN,    KC_H,    KC_Y,    KC_N,    KC_T,    KC_K,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX,    KC_H, KC_PGUP,    KC_N,    KC_T,    KC_K,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX,    KC_G,    KC_S,    KC_M,    KC_D,    KC_J,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX,    KC_G, KC_PGDN,    KC_M,    KC_D, C(KC_S),                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           _______, _______, _______,    _______, _______, _______
                                       //`--------------------------'  `--------------------------'
